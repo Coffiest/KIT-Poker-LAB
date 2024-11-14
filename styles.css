@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.header-right button {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+main {
+    margin-top: 70px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #333333;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* フッターの左詰め設定 */
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left; /* 左詰め */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* 縦方向に並べる */
+}
+
+.footer-content h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer-content p {
+    margin: 3px 0;
+}
+
+/* ボタンのスタイル */
+.footer-button {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.footer-button:hover {
+    background-color: #dddddd;
+}
